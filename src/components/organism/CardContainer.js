@@ -32,7 +32,7 @@ export const CardContainer = () => {
 
   // console.log(aovData.data?.values);
   return (
-    <div className="">
+    <div className="px-8">
       <div className="flex space-x-4">
         {salesData.map((card, index) => {
           const val = Object.values(salesData[index]);

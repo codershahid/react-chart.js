@@ -10,7 +10,7 @@ export const CardRevenue = ({ revList, revTotal }) => {
   let indirectTotal = revTotal?.indirect.toFixed(2);
 
   return (
-    <main className="flex-1 shadow-md mt-8 border border-red-500">
+    <main className="flex-1 shadow-md mt-8 border border-gray-300">
       <div className="my-1">
         <h3 className="text-base p-4 border-b border-gray-100 font-bold capitalize">
           Direct VS Indirect

@@ -4,8 +4,9 @@ import { Line } from "react-chartjs-2";
 
 const LineChart = ({ previous, current }) => {
   const labels = [];
-  current?.map((item) => {
+  current?.map(() => {
     labels.push("");
+    return null;
   });
 
   const data = {
